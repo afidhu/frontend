@@ -20,7 +20,7 @@ function App() {
       <Layout/>
         <Routes>
           <Route exact path='/' element={<Index/>}  ></Route>
-          <Route exact path='/home/' element={<Home/>}  ></Route>
+          <Route exact path='home/' element={<Home/>}  ></Route>
           <Route exact path='home/post/:post_id/' element={<Viewpost/>}  ></Route>
           <Route exact path='editpost/:post_id/' element={<PostEdit/>}  ></Route>
           <Route exact path='login/' element={<Login/>}  ></Route>
